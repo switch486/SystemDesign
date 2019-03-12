@@ -1,0 +1,78 @@
+= Systemdocumentation of XXX
+
+This document describes the System XXX
+
+== Introduction
+===	Summary
+tand zum Sprint 41 wieder. Punkte, die erst in späteren Sprints in diesem Dokument ergänzt werden, sind mit TODO gekennzeichnet.
+
+===	Goal of the Document
+This document should be a basis for:
+* Discussions about the project with stakeholders
+* Introductory document for new developers
+
+== System overview
+=== Scope
+Describe the overall purpose of the system
+
+=== Embedding into the project landscape
+[Diagram] Where is the project located accross other systems in the Production Environment
+
+== System Architecture
+=== System Overview
+[Diagram] Diagram of components of the system, with all relations to outside resources, systems. 
+
+=== TI Architecture
+Details about the Runtime Environment where the Project is started including contenerizarion, Firewalls, communication protocols, and location of third party systems.
+
+==== Runtime Environment
+[Diagram] Diagram of the system
+
+==== Resources
+Describe the resources needed for the System with estimations on how much data is needed
+
+==== Libraries and third party Software
+Describe the libraries, references the System relies on including minimal version of them.
+
+=== Component / Subsystem 1 Architecture // repeats for every component, subsystem, ... depends on the System Overview Diagram
+==== Overview
+Overview of one of the components presented in the System Overview Diagram in the document. Describe the standard data flow there.
+[Diagram] Diagram presenting the (subcomponents in the Component / components in the Subsystem), and their relation. 
+
+==== Core
+This is the place to describe all Core components, indlucing AI
+
+===== Subcomponent / Component 1
+
+-if AI
+====== Description of the Heuristic used
+
+====== Input Data
+
+====== Random Seed
+
+====== Algorithm Parameters
+
+====== Algorithm Architecture
+
+==== Persistence
+What and how is persisted in the system
+
+==== GUI
+does this Component have a GUI?
+
+==== Service
+===== Service 1
+Describe the services present in the Component / Subsystem
+
+==== Data Model
+define the Data Model the Component / Subsystem works with
+
+=== System development
+Try to capture the way to further develop the system.
+
+=== DEVOPS
+Try to capture the specialities about the System configuration for the Production Environment.
+
+=== References
+References on to external documents.
